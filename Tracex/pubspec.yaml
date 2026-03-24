@@ -1,0 +1,15 @@
+name: tracex_app
+description: A simple tracing app
+publish_to: 'none'
+
+environment:
+sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+flutter:
+sdk: flutter
+image_picker: ^1.0.4
+screen_brightness: ^0.2.2
+
+flutter:
+uses-material-design: true
